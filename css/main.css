@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+.logo img {
+  width: 100%;
+  display: block;
+}
+
+.text {
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  display: inline-block;
+  margin: .25em;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 250px;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
